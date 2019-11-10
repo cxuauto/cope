@@ -16,7 +16,9 @@
   "build": {
     "appId": "cope",
     "files": [
-      "out"
+      "dist/**/*",
+      "package.json",
+      "main.js"
     ],
     "mac": {
       "category": "."
