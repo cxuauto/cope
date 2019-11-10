@@ -21,7 +21,7 @@ build_script:
   - yarn dist
 
 artifacts:
-  - path: dist/*.zip
+  - path: dist/*
     name: CopeApp
 
 test: off
