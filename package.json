@@ -21,13 +21,20 @@
       "main.js"
     ],
     "mac": {
-      "category": "."
+      "icon": "icon.icns",
+      "category": "public.app-category.utilities"
     },
-    "nsis": {
-      "createDesktopShortcut": "always"
+    "win": {
+      "icon": "icon.icns",
+      "target": "nsis"
     },
     "linux": {
-      "category": "Graphics"
+      "icon": "build/icons",
+      "category": "Utility",
+      "target": [
+        "deb",
+        "AppImage"
+      ]
     }
   },
   "author": "",
