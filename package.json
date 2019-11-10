@@ -12,6 +12,7 @@
     "dist": "npx electron-builder",
     "release": "npx electron-builder"
   },
+  "extends": null,
   "build": {
     "appId": "cope",
     "files": [
