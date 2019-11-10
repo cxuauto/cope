@@ -20,4 +20,8 @@ install:
 build_script:
   - yarn dist
 
+artifacts:
+  - path: dist/*.zip
+    name: CopeApp
+
 test: off
