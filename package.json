@@ -8,8 +8,8 @@
     "start": "electron .",
     "postinstall": "electron-builder install-app-deps",
     "pack": "electron-builder --dir",
-    "dist": "electron-builder",
-    "release": "electron-builder"
+    "dist": "npm install && electron-builder",
+    "release": "npm install && electron-builder"
   },
   "extends": null,
   "build": {
@@ -28,11 +28,10 @@
       "target": "nsis"
     },
     "linux": {
-      "icon": "build/icons",
+      "icon": "icon.icns",
       "category": "Utility",
       "target": [
-        "deb",
-        "AppImage"
+        "deb"
       ]
     }
   },
