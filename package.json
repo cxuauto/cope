@@ -1,13 +1,12 @@
 {
   "name": "cope",
   "version": "1.0.0",
-  "description": "",
+  "description": "test",
+  "author": "lingdong <xxx@xxx.xxx>",
   "main": "main.js",
   "scripts": {
     "start": "electron .",
     "postinstall": "electron-builder install-app-deps",
-    "start": "yarn install && yarn compile && electron .",
-    "compile": "rimraf app/out && tsc",
     "pack": "electron-builder --dir",
     "dist": "electron-builder",
     "release": "electron-builder"
