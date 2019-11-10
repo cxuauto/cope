@@ -24,11 +24,11 @@
       "category": "public.app-category.utilities"
     },
     "win": {
-      "icon": "icon.icns",
+      "icon": "favicon-128.ico",
       "target": "nsis"
     },
     "linux": {
-      "icon": "icon.icns",
+      "icon": "favicon-128.ico",
       "category": "Utility",
       "target": [
         "deb"
