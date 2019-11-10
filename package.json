@@ -9,8 +9,8 @@
     "start": "yarn install && yarn compile && electron .",
     "compile": "rimraf app/out && tsc",
     "pack": "electron-builder --dir",
-    "dist": "npx electron-builder",
-    "release": "npx electron-builder"
+    "dist": "electron-builder",
+    "release": "electron-builder"
   },
   "extends": null,
   "build": {
