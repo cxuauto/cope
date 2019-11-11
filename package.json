@@ -25,7 +25,29 @@
     },
     "win": {
       "icon": "favicon-256.ico",
-      "target": "portable"
+      "target": [
+      {
+        "target": "nsis",
+        "arch": [
+          "x64",
+          "ia32"
+        ]
+      }, 
+      {
+        "target": "zip",
+        "arch": [
+          "x64",
+          "ia32"
+      ],
+      {
+        "target": "7z",
+        "arch": [
+          "x64",
+          "ia32"
+      ]
+      }
+      }
+    ]
     },
     "linux": {
       "icon": "favicon-256.ico",
