@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "description",
   "author": "Lingdong Huang <lingdong0618@hotmail.com> (https://github.com/LingDong-/cope)",
+  "homepage": "https://github.com/LingDong-/cope",
   "main": "main.js",
   "scripts": {
     "start": "electron .",
@@ -48,11 +49,7 @@
         ]
       },
       {
-        "target": "portable",
-        "arch": [
-          "x64",
-          "ia32"
-        ]
+        "target": "portable"
       }
     ]
     },
